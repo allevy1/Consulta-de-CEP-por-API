@@ -1,0 +1,86 @@
+body {
+  font-family: "Oswald", sans-serif;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.upContainer h1 {
+  font-family: "Raleway", sans-serif;
+}
+
+.upContainer {
+  color: white;
+  background-color: black;
+  margin: 0 auto;
+  height: 30%;
+  width: 96vw;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+}
+
+img {
+  /* margin-top: 30px; */
+  height: 80%;
+  width: 80vw;
+  margin: 30px auto 10px auto;
+}
+
+.mediumContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.mediumContainer p {
+  font-size: 30px;
+}
+.mediumContainer h2 {
+  font-size: 40px;
+}
+
+.downContainer {
+  color: white;
+  background-color: black;
+  margin-top: 50px;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+input {
+  border: none;
+  height: 20px;
+  width: 30%;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button {
+  margin-top: 20px;
+  width: 100px;
+  height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#buttonBusca:hover {
+  transition: 500ms;
+  background-color: rgb(155, 155, 155);
+}
+
+h3 {
+  color: aliceblue;
+}

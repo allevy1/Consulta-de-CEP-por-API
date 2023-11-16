@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&family=Oswald:wght@700&family=Raleway:wght@600&display=swap");
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="js/script.js" defer></script>
+    <title>CEP</title>
+  </head>
+  <body>
+    <div class="upContainer">
+      <h1>Busca CEP</h1>
+      <input
+        type="text"
+        placeholder="Digite o CEP"
+        data-ls-module="charCounter"
+        maxlength="8"
+        id="input"
+      />
+      <button id="buttonBusca">Buscar</button>
+    </div>
+
+    <img src="img/mapa.webp" alt="mapa ilustrativo" />
+
+    <div class="mediumContainer">
+      <h2>Dúvidas sobre sua localização?</h2>
+      <p>Procure através do cep</p>
+    </div>
+    <div class="downContainer">
+      <h1>Resultado Da Busca</h1>
+      <h3>Estado: <span id="uf"></span></h3>
+      <h3>Cidade: <span id="cidade"></span></h3>
+      <h3>Bairro: <span id="bairro"></span></h3>
+      <h3>Rua: <span id="rua"></span></h3>
+    </div>
+  </body>
+</html>
